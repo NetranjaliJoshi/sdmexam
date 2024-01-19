@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function validation() {
+
+		if (document.contact_form.txtUsername.value == "") {
+			alert("Please Enter Username");
+			return false;
+		}
+
+		if ((document.contact_form.gender[0].checked == false)
+				&& (document.contact_form.gender[1].checked == false)) {
+			alert("Please Select Your Gender");
+			return false;
+		}
+
+		if (document.contact_form.age.selectedIndex == 0) {
+			alert("Please Select Your Age Group");
+			return false;
+		}
+		
+		if(document.contact_form.check.checked == false)
+			{
+			alert("Please Agree terms and Condition");
+			return false;
+			}
+	}
+</script>
+</head>
+<body>
+	<h2>Registration Form</h2>
+	<form action="serv1" method="get" name="contact_form"
+		onsubmit="return validation()">
+		<table border="1">
+			<tr>
+				<td>Enter Username:</td>
+				<td><input type="text" name="txtUsername"></td>
+			</tr>
+			<tr>
+				<td>Enter Password:</td>
+				<td><input type="password" name="txtPassword"></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>Male <input type="radio" name="gender" value="MALE">
+					Female <input type="radio" name="gender" value="FEMALE">
+				</td>
+			</tr>
+			<tr>
+				<td>Enter Age:</td>
+				<td><select name="age">
+						<option value="select" selected="selected">Select</option>
+						<option value="21-30">21-30</option>
+						<option value="31-40">31-40</option>
+						<option value="41-50">41-50</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" name="check"></td>
+				<td>Agree Terms and Conditions!!!</td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="RESET"></td>
+				<td><input type="submit" value="SUBMIT"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

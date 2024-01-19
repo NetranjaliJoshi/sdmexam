@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="8">
+    <list key="modules" value0="BookStore::org.eclipse.jst.jee.server:BookStore::jst.web::3.0" value1="OnlineBookApp::org.eclipse.jst.jee.server:OnlineBookApp::jst.web::3.0" value2="JspCrudDemo::org.eclipse.jst.jee.server:JspCrudDemo::jst.web::3.1" value3="CookiesDemo::org.eclipse.jst.jee.server:CookiesDemo::jst.web::3.0" value4="AssignStudentPRN::org.eclipse.jst.jee.server:AssignStudentPRN::jst.web::3.0" value5="JavaScriptDemo::org.eclipse.jst.jee.server:JavaScriptDemo::jst.web::3.0" value6="MyApp::org.eclipse.jst.jee.server:MyApp::jst.web::3.1"/>
+  </server>
+</servers>

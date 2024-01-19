@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+E:\Advanced-Java-Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3286271839.index
+\OnlineBookApp\src
+E:\Advanced-Java-Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2366311998.index
+\OnlineBookApp\src
+E:\Advanced-Java-Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\353841146.index
+\BookStore\src
+E:\Advanced-Java-Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2367032117.index
+\BookCurd\src\main\resources
+E:\Advanced-Java-Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2996539862.index
+\JspCrudDemo\src
